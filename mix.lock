@@ -18,7 +18,7 @@
   "plug_accept_language": {:hex, :plug_accept_language, "0.1.0"},
   "plug_wait1": {:hex, :plug_wait1, "0.1.4"},
   "plug_x_forwarded_for": {:hex, :plug_x_forwarded_for, "0.1.0"},
-  "poe_api": {:git, "git://github.com/poegroup/poe-api.git", "459dd447617e64025625e63cc0f4e71214169261", []},
+  "poe_api": {:git, "git://github.com/poegroup/poe-api.git", "34c81ca19566ad85988a1f0178935d95519b5bc3", []},
   "poison": {:hex, :poison, "1.4.0"},
   "poolboy": {:hex, :poolboy, "1.5.1"},
   "ranch": {:hex, :ranch, "1.2.1"},
