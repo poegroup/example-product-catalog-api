@@ -4,7 +4,8 @@ defmodule ProductCatalog.Resource.Root do
   hyper do
     action do
       %{
-        "products" => link_to(ProductCatalog.Resource.Products)
+        "cart" => link_to(ProductCatalog.Resource.Cart),
+        "products" => link_to(ProductCatalog.Resource.Products),
       }
     end
   end

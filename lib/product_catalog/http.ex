@@ -3,9 +3,10 @@ defmodule ProductCatalog.HTTP do
 
   get     "/",                             ProductCatalog.Resource.Root
   get     "/cart",                         ProductCatalog.Resource.Cart
-  put     "/cart",                         ProductCatalog.Resource.Cart.Put
+  post    "/cart",                         ProductCatalog.Resource.Cart.Put
   delete  "/cart",                         ProductCatalog.Resource.Cart.Delete
-  post    "/cart",                         ProductCatalog.Resource.Cart.Checkout
+  post    "/cart/checkout",                ProductCatalog.Resource.Cart.Checkout
   get     "/products",                     ProductCatalog.Resource.Products
   get     "/products/:product",            ProductCatalog.Resource.Products.Read
+  post    "/products/:product",            ProductCatalog.Resource.Products.Rate
 end
