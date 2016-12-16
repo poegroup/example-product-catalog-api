@@ -10,6 +10,8 @@ defmodule ProductCatalog.Resource.Products.Product_.Rate.PUT do
     (r) -> r
   end
 
+  validation 0 <= rating <= 5
+
   mediatype Hyper do
     action do
       Rating.rate(product.id, user, rating)
